@@ -31,7 +31,7 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: general_resume.tex
-      - name: Upload release
+      - name: Create release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "general_resume.pdf"
