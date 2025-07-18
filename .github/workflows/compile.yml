@@ -36,4 +36,4 @@ jobs:
         with:
           name: ${{ github.sha }}
           artifacts: "general_resume.pdf"
-          update: true
+          makeLatest: true
