@@ -31,10 +31,12 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: general_resume.tex
+      - name: Set short SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          name: ${{ github.sha | substr(0, 8) }}
-          tag: ${{ github.sha | substr(0, 8)}}
+          name: ${{ env.SHORT_SHA }}
+          tag: ${{ env.SHORT_SHA }}
           artifacts: "general_resume.pdf"
           makeLatest: true
