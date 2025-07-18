@@ -35,5 +35,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           name: ${{ github.sha }}
+          tag: ${{ github.sha }}
           artifacts: "general_resume.pdf"
           makeLatest: true
