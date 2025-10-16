@@ -24,13 +24,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: LaTeX compilation
-  # You may pin to the exact commit or the version.
-  # uses: dante-ev/latex-action@49cf7cb5f79e7b2006dbdffea85e02bec0b6244b
+      - name: LaTeX compilation (Primary)
+      # You may pin to the exact commit or the version.
         uses: dante-ev/latex-action@2021-A
         with:
-          # The root LaTeX file to be compiled
-          root_file: general_resume.tex
+          root_file: JBonham_Resume.tex
       - name: Set short SHA
         run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
@@ -38,5 +36,5 @@ jobs:
         with:
           name: ${{ env.SHORT_SHA }}
           tag: ${{ env.SHORT_SHA }}
-          artifacts: "general_resume.pdf"
+          artifacts: "JBonham_Resume.pdf"
           makeLatest: true
