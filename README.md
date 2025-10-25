@@ -1,3 +1,2 @@
-## My LaTeX resume(s). 
-To edit/view them, install `texmaker`, `texlive-fontsrecommended`, `texlive-fontsextra`, `marvosym`, `texlive-latexextra`
-and optionally`texlive-binextra` (All package names for Arch Linux) for using `pdflatex` to build from the command line.
+## My Typst resume(s). 
+To edit/view them, install Font Awesome and Typst on your system. Then, use `typst watch JBonham_Resume.typ`, and open the resulting PDF in firefox. Refresh for live edits.
