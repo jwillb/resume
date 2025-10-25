@@ -25,12 +25,8 @@ jobs:
         uses: actions/checkout@v4
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Typst compilation
-      # You may pin to the exact commit or the version.
-        uses: ammar-ahmed22/compile-typst-action@v1
-        with:
-          root_file: JBonham_Resume.tex
-          source_paths: 'JBonham_Resume.typ'
-          output_paths: 'JBonham_Resume.pdf'
+      - uses: typst-community/setup-typst@v4
+      - run: 'typst compile JBonham_Resume.typ JBonham_Resume.pdf'
       - name: Set short SHA
         run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
