@@ -22,13 +22,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: LaTeX compilation (Primary)
+      - name: Typst compilation
       # You may pin to the exact commit or the version.
-        uses: dante-ev/latex-action@2021-A
+        uses: ammar-ahmed22/compile-typst-action@v1
         with:
           root_file: JBonham_Resume.tex
+          source_paths: 'JBonham_Resume.typ'
+          output_paths: 'JBonham_Resume.pdf'
       - name: Set short SHA
         run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
