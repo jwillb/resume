@@ -33,3 +33,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Prepare artifact
+        uses: actions/deploy-pages@v4
