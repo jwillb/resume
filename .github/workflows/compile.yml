@@ -26,6 +26,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: typst-community/setup-typst@v4
       - run: typst compile JBonham_Resume.typ JBonham_Resume.pdf --font-path fonts/
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v4
       - name: Set short SHA
         run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
