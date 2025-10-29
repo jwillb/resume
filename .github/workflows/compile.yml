@@ -28,6 +28,8 @@ jobs:
       - run: typst compile JBonham_Resume.typ JBonham_Resume.pdf --font-path fonts/
       - name: Deploy to Pages
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set short SHA
         run: echo "SHORT_SHA=${GITHUB_SHA:0:8}" >> $GITHUB_ENV
       - name: Create release
