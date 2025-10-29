@@ -22,10 +22,13 @@ jobs:
         with:
           path: output/
   deploy:
+    needs: compile
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: compile
     runs-on: ubuntu-latest
     steps:
       - name: Prepare artifact
