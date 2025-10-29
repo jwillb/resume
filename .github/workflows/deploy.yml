@@ -1,0 +1,31 @@
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ main ]  # Runs on every commit to main
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Create output dir
+        run: |
+          mkdir output
+      - uses: typst-community/setup-typst@v4
+      - run: typst compile JBonham_Resume.typ output/JBonham_Resume.pdf --font-path fonts/
+      - name: Upload static files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: output/
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare artifact
