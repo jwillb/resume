@@ -3,7 +3,7 @@
 
 #let links = [
   #link("https://jwillb.net")[#fa-icon("globe", solid: true) #underline("jwillb.net")] |
-  #link("mailto:jwillb00@proton.me")[#fa-icon("envelope", solid: true) #underline("jwillb00@proton.me")] |
+  #link("mailto:jwillb00+inquiry@proton.me")[#fa-icon("envelope", solid: true) #underline("jwillb00@proton.me")] |
   #link("https://linkedin.com/in/jwillb")[#fa-icon("linkedin") #underline("in/jwillb")] |
   #link("https://github.com/jwillb")[#fa-icon("github") #underline("jwillb")]
 ]
@@ -15,7 +15,17 @@
 )
 
 #let my_experience = [
-  #experience("Software Co-Lead",
+  #experience("Research Assistant",
+    "University of Alberta",
+    "Python, C++, Java, ROS 2",
+    "Jan 2026",
+    "Present",
+    "Edmonton, AB",
+	[
+      - Writing software to use the KUKA LBR Med 7 robotic arm to perform echocardiography
+	]
+  )
+  #experience("Software Co-Lead (Formerly Member)",
     "The Autonomous Robotic Vehicle Project",
     "Python, C++, ROS 2, Docker",
     "Aug 2025",
@@ -23,21 +33,9 @@
     "Edmonton, AB",
     [
       - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software
-      - Overseeing all software for our robots and ensuring it is dependable and accurate
-      - Ensuring code works by testing in real-world environments
       - Collaborating with different disciplines including Electrical and Mechanical Engineering sub-teams
-    ]
-  )
-  #experience("Software Member",
-    "The Autonomous Robotic Vehicle Project",
-    "Python, C++, ROS 2, Docker",
-    "Jan 2025",
-    "Aug 2025",
-    "Edmonton, AB",
-    [
-      - Implemented quality-of-life fixes in the Gazebo robot simulator, significantly enhancing the testing experience
-      - Represented ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams
-      - Contributed to data labelling, testing, debugging, and other essential competition duties in addition to working on code to complete missions
+      - Overseeing robot software accuracy and testing in real-world environments
+      - As a member, represented ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams
     ]
   )
   #experience("Teaching Assistant - CMPUT 201",
@@ -48,7 +46,6 @@
     "Edmonton, AB",
     [
       - Evaluated and debugged code in a class of over 500 students
-      - Diagnosed many technical issues during office hours, such as syntax and logic errors
       - Mentored students on CS topics such as C syntax, dynamic memory allocation, and Linux fundamentals
       - Led weekly lab sessions of over 100 students, presenting helpful information and marking demonstrations
     ]
@@ -78,14 +75,13 @@
     ]
   )
   #project("Server Administration",
-    "Linux, FreeBSD, Docker, Networking",
+    "Linux, Proxmox, Docker, Networking",
     "June 2018",
     "Present",
     [
       - Designed and configured multiple servers on public and private networks for hosting various services
-      - Using containerized applications to isolate dependencies, decrease deployment time and achieve a 99% uptime
-      - Used GitHub Actions to automatically containerize and deploy my own software
-      - Deployed standard firewall utilities and reverse proxies to ensure safety against malicious actors
+      - Using containerized applications to isolate dependencies, decrease deployment time, and deploy my software automatically with GitHub Actions CI/CD
+      - Deployed firewall utilities and reverse proxies to ensure security and a 99% uptime
     ]
   )
 ]
