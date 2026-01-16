@@ -17,12 +17,13 @@
 #let my_experience = [
   #experience("Research Assistant",
     "University of Alberta",
-    "Python, C++, Java, ROS 2",
+    "Python, C++, Java",
     "Jan 2026",
     "Present",
     "Edmonton, AB",
 	[
-      - Writing software to use the KUKA LBR Med 7 robotic arm to perform echocardiography
+      - Developing for the KUKA LBR Med 7 robotic arm to perform echocardiography
+	  - Writing safe code that will be medically certified for use in research trials and actual patient care
 	]
   )
   #experience("Software Co-Lead (Formerly Member)",
