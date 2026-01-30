@@ -56,7 +56,9 @@
 ]
 
 #let my_projects = [
-  #project("Two-wheel self-balancing vision robot | #link(https://jwillb.net/projects/robot)[Website]",
+  #project([
+    Two-wheel self-balancing vision robot | #link("https://jwillb.net/projects/robot")[Website]
+    ],
     "C++, RTOS, ESP-IDF",
     "Sep 2025",
     "Present",
@@ -70,7 +72,7 @@
   #project("Visual Servoing Control System",
     "Python, NumPy, Docker",
     "Mar 2025",
-    "Present",
+    "Aug 2025",
     [
       - Developed a visual servo based control system for autonomous robotics
       - Referenced scientific papers about image-based visual servo
