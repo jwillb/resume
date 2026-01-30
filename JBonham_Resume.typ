@@ -21,12 +21,12 @@
     "Jan 2026",
     "Present",
     "Edmonton, AB",
-	[
-          - Developing for the KUKA LBR Med 7 robotic arm to perform ultrasonic heart imaging
-          - Using the real-time KUKA FRI SDK in C++
-	  - Writing safe code for use in research trials and patient care
-          - Developing real-time control scheme for 3rd party controller
-	]
+    [
+      - Developing for the KUKA LBR Med 7 robotic arm to perform ultrasonic heart imaging
+      - Using the real-time KUKA FRI SDK in C++
+      - Writing safe code for use in research trials and patient care
+      - Developing real-time control scheme for 3rd party controller
+    ]
   )
   #experience("Software Co-Lead (Formerly Member)",
     "The Autonomous Robotic Vehicle Project",
@@ -50,7 +50,7 @@
     [
       - Evaluated and debugged code in a class of over 500 students
       - Mentored students on CS topics such as C syntax, dynamic memory allocation, and Linux fundamentals
-      - Led weekly lab sessions of over 100 students, presenting helpful information and marking demonstrations
+      - Led weekly lab sessions of 100+ students, presenting helpful information and marking demonstrations
     ]
   )
 ]
@@ -66,7 +66,7 @@
       - Designing and building a mobile, networked robot with computer vision capabilities
       - Developing with ESP-IDF on the low-level controller
       - Real-time PID control for balancing and velocity on ESP-32
-      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with complementary sensor fusion for accuracy between the accelerometer and gyroscope
+      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data
     ]
   )
   #project("Visual Servoing Control System",
@@ -75,7 +75,6 @@
     "Aug 2025",
     [
       - Developed a visual servo based control system for autonomous robotics
-      - Referenced scientific papers about image-based visual servo
       - Adjusted control system for versatility on multiple robots
       - Achieved 99% accuracy during real-world trials
     ]
@@ -85,7 +84,7 @@
     "June 2018",
     "Present",
     [
-      - Designed and configured multiple servers on public and private networks for hosting various services
+      - Designed and configured multiple servers for hosting various services
       - Using containerized applications to isolate dependencies, decrease deployment time, and deploy my software automatically with GitHub Actions CI/CD
       - Deployed firewall utilities and reverse proxies to ensure security and a 99% uptime
     ]
