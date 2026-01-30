@@ -22,8 +22,10 @@
     "Present",
     "Edmonton, AB",
 	[
-      - Developing for the KUKA LBR Med 7 robotic arm to perform echocardiography
-	  - Writing safe code that will be medically certified for use in research trials and actual patient care
+          - Developing for the KUKA LBR Med 7 robotic arm to perform ultrasonic heart imaging
+          - Using the real-time KUKA FRI SDK in C++
+	  - Writing safe code for use in research trials and patient care
+          - Developing real-time control scheme for 3rd party controller
 	]
   )
   #experience("Software Co-Lead (Formerly Member)",
