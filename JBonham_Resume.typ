@@ -56,6 +56,17 @@
 ]
 
 #let my_projects = [
+  #project("Two-wheel self-balancing vision robot | [Website](https://jwillb.net/projects/robot)",
+    "C++, RTOS, ESP-IDF",
+    "Sep 2025",
+    "Present",
+    [
+      - Designing and building a mobile, networked robot with computer vision capabilities
+      - Developing with ESP-IDF on the low-level controller
+      - Real-time PID control for balancing and velocity on ESP-32
+      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with complementary sensor fusion for accuracy between the accelerometer and gyroscope
+    ]
+  )
   #project("Visual Servoing Control System",
     "Python, NumPy, Docker",
     "Mar 2025",
@@ -65,16 +76,6 @@
       - Referenced scientific papers about image-based visual servo
       - Adjusted control system for versatility on multiple robots
       - Achieved 99% accuracy during real-world trials
-    ]
-  )
-  #project("Ray-traced 3D Renderer",
-    "C, Make",
-    "Nov 2024",
-    "Dec 2024",
-    [
-      - Designed and developed a 3D rendering application using C
-      - Implemented a unit-test process with 150+ cases and successfully passed all
-      - Developed a robust and refined build system using Make
     ]
   )
   #project("Server Administration",
