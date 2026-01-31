@@ -45,7 +45,7 @@
     "University of Alberta",
     "C, Linux, Git, Bash",
     "Sep 2025",
-    "Present",
+    "December 2025",
     "Edmonton, AB",
     [
       - Evaluated and debugged code in a class of over 500 students
