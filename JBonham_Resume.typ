@@ -15,17 +15,16 @@
 )
 
 #let my_experience = [
-  #experience("Research Assistant",
-    "University of Alberta",
-    "Python, C++, Java",
+  #experience("Robotics Research Intern",
+    "Servier Virtual Cardiac Center | University of Alberta",
+    "Java, C++, Python",
     "Jan 2026",
     "Present",
     "Edmonton, AB",
     [
-      - Developing for the KUKA LBR Med 7 robotic arm to perform ultrasonic heart imaging
-      - Using the real-time KUKA FRI SDK in C++
-      - Writing safe code for use in research trials and patient care
-      - Developing real-time control scheme for 3rd party controller
+      - Developed an automated robotic echocardiography routine for a collaborative KUKA LBR medical robot, allowing sonographers to easily transition between handguiding, preset positioning, and scanning modes.
+      - Adjusted force parameters and ESM states to ensure safe human-robot interaction at all stages.
+      - Designing a smartPAD user interface for testing and architeching the migration to an external control application utilizing OPC UA for remote network communication.
     ]
   )
   #experience("Software Co-Lead (Formerly Member)",
@@ -35,22 +34,22 @@
     "Present",
     "Edmonton, AB",
     [
-      - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software
-      - Collaborating with different disciplines including Electrical and Mechanical Engineering sub-teams
-      - Overseeing robot software accuracy and testing in real-world environments
-      - As a member, represented ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams
+      - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software.
+      - Collaborating with different disciplines including Electrical and Mechanical sub-teams.
+      - Overseeing robot software accuracy and testing in real-world environments.
+      - As a member, represented ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams.
     ]
   )
-  #experience("Teaching Assistant - CMPUT 201",
-    "University of Alberta",
+  #experience("Teaching Assistant",
+    "CMPUT 201 | University of Alberta",
     "C, Linux, Git, Bash",
     "Sep 2025",
     "December 2025",
     "Edmonton, AB",
     [
-      - Evaluated and debugged code in a class of over 500 students
-      - Mentored students on CS topics such as C syntax, dynamic memory allocation, and Linux fundamentals
-      - Led weekly lab sessions of 100+ students, presenting helpful information and marking demonstrations
+      - Evaluated and debugged code in a class of over 500 students.
+      - Mentored students on CS topics such as C syntax, dynamic memory allocation, and Linux fundamentals.
+      - Led weekly lab sessions of 100+ students, presenting helpful information and marking demonstrations.
     ]
   )
 ]
@@ -63,10 +62,10 @@
     "Sep 2025",
     "Present",
     [
-      - Designing and building a mobile, networked robot with computer vision capabilities
-      - Developing with ESP-IDF on the low-level controller
-      - Real-time PID control for balancing and velocity on ESP-32
-      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data
+      - Designing and building a mobile, networked robot with computer vision capabilities.
+      - Developing with ESP-IDF on the low-level controller.
+      - Real-time PID control for balancing and velocity on ESP-32.
+      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data.
     ]
   )
   #project("Visual Servoing Control System",
