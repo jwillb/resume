@@ -3,7 +3,7 @@
 
 #let links = [
   #link("https://jwillb.net")[#fa-icon("globe", solid: true) #underline("jwillb.net")] |
-  #link("mailto:jwillb00+inquiry@proton.me")[#fa-icon("envelope", solid: true) #underline("jwillb00@proton.me")] |
+  #link("mailto:jonathanwbon+inquiry@protonmail.com")[#fa-icon("envelope", solid: true) #underline("jonathanwbon@protonmail.com")] |
   #link("https://linkedin.com/in/jwillb")[#fa-icon("linkedin") #underline("in/jwillb")] |
   #link("https://github.com/jwillb")[#fa-icon("github") #underline("jwillb")]
 ]
