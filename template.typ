@@ -2,15 +2,15 @@
 
 #let header(name, links) = {
   align(center)[
-    #text(size: 28pt, weight: "semibold")[#name]
+    #text(size: 23pt, weight: "semibold")[#name]
     \
-    #text(size: 12pt)[#links]
+    #text(size: 11pt)[#links]
   ]
   v(1em)
 }
 
 #let section(title, content) = {
-  v(0.4em)
+  v(0.2em)
   set par(spacing: 0.25em, hanging-indent: 1em)
   align(left)[#text(size: 12pt)[#smallcaps(title)]]
   line(length: 100%, stroke: (paint: gray, thickness: 1pt))
@@ -59,6 +59,7 @@
 }
 
 #let skills(content) = {
+  v(0.4em)
   set par(hanging-indent: 1em)
   h(1em)
   content

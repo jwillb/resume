@@ -10,21 +10,21 @@
 
 #let my_education = school("University of Alberta",
   "BSc Computing Science - Specialization",
-  "Sep. 2023",
-  "Present"
+  "Sep 2023",
+  "Expected Dec 2027"
 )
 
 #let my_experience = [
-  #experience("Robotics Research Intern",
-    "Servier Virtual Cardiac Center | University of Alberta",
-    "Java, C++, Python",
-    "Jan 2026",
+  #experience("Software Development Intern",
+    "ISS Mine Safety",
+    "Python, C++, ROS 2, Docker",
+    "May 2026",
     "Present",
     "Edmonton, AB",
     [
-      - Developed an automated robotic echocardiography routine for a collaborative KUKA LBR medical robot, allowing sonographers to easily transition between handguiding, preset positioning, and scanning modes.
-      - Adjusted force parameters and ESM states to ensure safe human-robot interaction at all stages.
-      - Designing a smartPAD user interface for testing and architeching the migration to an external control application utilizing OPC UA for remote network communication.
+      - Refactoring mapping and localization code for greater accuracy and ease of use on a Clearpath Husky robot.
+      - Developing a semi-autonomous workflow to generate inspection reports, aiming to reduce time-to-quote by up to 60%.
+      - Creating a networked web-interface for efficient file uploading onto a handheld laser engraver.
     ]
   )
   #experience("Software Co-Lead (Formerly Member)",
@@ -37,14 +37,25 @@
       - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software.
       - Collaborating with different disciplines including Electrical and Mechanical sub-teams.
       - Overseeing robot software accuracy and testing in real-world environments.
-      - As a member, represented ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams.
+      - As a member, helped represent ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams.
+    ]
+  )
+  #experience("Robotics Research Intern",
+    "Servier Virtual Cardiac Center | University of Alberta",
+    "Java, C++, Python",
+    "Jan 2026",
+    "May 2026",
+    "Edmonton, AB",
+    [
+      - Developed an automated robotic echocardiography routine for a collaborative KUKA LBR medical robot
+      - Adjusted force parameters and ESM states to ensure safe human-robot interaction at all stages.
     ]
   )
   #experience("Teaching Assistant",
     "CMPUT 201 | University of Alberta",
     "C, Linux, Git, Bash",
     "Sep 2025",
-    "December 2025",
+    "Dec 2025",
     "Edmonton, AB",
     [
       - Evaluated and debugged code in a class of over 500 students.
@@ -62,9 +73,7 @@
     "Sep 2025",
     "Present",
     [
-      - Designing and building a mobile, networked robot with computer vision capabilities.
       - Developing with ESP-IDF on the low-level controller.
-      - Real-time PID control for balancing and velocity on ESP-32.
       - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data.
     ]
   )
@@ -74,25 +83,24 @@
     "Aug 2025",
     [
       - Developed a visual servo based control system for autonomous robotics
-      - Adjusted control system for versatility on multiple robots
+      - Adjusted for versatility on multiple robots
       - Achieved 99% accuracy during real-world trials
     ]
   )
   #project("Server Administration",
     "Linux, Proxmox, Docker, Networking",
-    "June 2018",
+    "Jun 2018",
     "Present",
     [
       - Designed and configured multiple servers for hosting various services
       - Using containerized applications to isolate dependencies, decrease deployment time, and deploy my software automatically with GitHub Actions CI/CD
-      - Deployed firewall utilities and reverse proxies to ensure security and a 99% uptime
     ]
   )
 ]
 
 #let my_skills = skills([
   *Languages*: Python, C, C++, Java \
-  *Tools*: Linux, Windows, Git, GitHub Actions, Docker, Microsoft 365 + G Suite \
+  *Tools*: Linux, Windows, Git, GitHub Actions, Docker \
   *Libraries*: ROS 2, NumPy, SQLite
 ])
 
