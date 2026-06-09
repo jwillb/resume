@@ -22,9 +22,9 @@
     "Present",
     "Edmonton, AB",
     [
-      - Refactoring mapping and localization stack for greater accuracy and ease of use on a Clearpath Husky robot.
+      - Refactoring mapping and localization stack for greater accuracy and ease of use on a Clearpath Husky robot I converted to ROS 2.
       - Built a sensor data ingestion pipeline processing raw hex-encoded XBee radio payloads, with automatic boot-time computation and GPS fallback for clock synchronization.
-      - Creating a networked web interface for efficient file uploading onto a handheld laser engraver.
+      - Created a networked web interface for efficient file uploading onto a handheld laser engraver.
     ]
   )
   #experience("Software Co-Lead (Formerly Member)",
@@ -35,8 +35,6 @@
     "Edmonton, AB",
     [
       - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software.
-      - Collaborating with different disciplines including Electrical and Mechanical sub-teams.
-      - Overseeing robot software accuracy and testing in real-world environments.
       - As a member, helped represent ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams.
     ]
   )
@@ -58,9 +56,7 @@
     "Dec 2025",
     "Edmonton, AB",
     [
-      - Evaluated and debugged code in a class of over 500 students.
-      - Mentored students on CS topics such as C syntax, dynamic memory allocation, and Linux fundamentals.
-      - Led weekly lab sessions of 100+ students, presenting helpful information and marking demonstrations.
+      - Evaluated code and mentored 500+ students on C, memory management, and Linux in labs of 100+ people.
     ]
   )
 ]
