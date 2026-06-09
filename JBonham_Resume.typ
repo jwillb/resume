@@ -22,9 +22,9 @@
     "Present",
     "Edmonton, AB",
     [
-      - Refactoring mapping and localization code for greater accuracy and ease of use on a Clearpath Husky robot.
-      - Developing a semi-autonomous workflow to generate inspection reports, aiming to reduce time-to-quote by up to 60%.
-      - Creating a networked web-interface for efficient file uploading onto a handheld laser engraver.
+      - Refactoring mapping and localization stack for greater accuracy and ease of use on a Clearpath Husky robot.
+      - Built a sensor data ingestion pipeline processing raw hex-encoded XBee radio payloads, with automatic boot-time computation and GPS fallback for clock synchronization.
+      - Creating a networked web interface for efficient file uploading onto a handheld laser engraver.
     ]
   )
   #experience("Software Co-Lead (Formerly Member)",
