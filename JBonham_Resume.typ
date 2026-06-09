@@ -77,12 +77,14 @@
       - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data.
     ]
   )
-  #project("Visual Servoing Control System",
+  #project([
+    Visual Servoing Control System | #link("https://jwillb.net/projects/visual-servo")[#underline("Website")]
+    ],
     "Python, NumPy, Docker",
     "Mar 2025",
     "Aug 2025",
     [
-      - Developed a visual servo based control system for autonomous robotics
+      - Developed a visual servo based control system for autonomous robotics, which uses computer vision to align to objects.
       - Adjusted for versatility on multiple robots
       - Achieved 99% accuracy during real-world trials
     ]
