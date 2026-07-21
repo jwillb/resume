@@ -62,9 +62,7 @@
 ]
 
 #let my_projects = [
-  #project([
-    Two-Wheel Self Balancing Robot | #link("https://jwillb.net/projects/robot")[#underline("Website")]
-    ],
+  #project("Two-Wheeled Differential Drive Robot",
     "C++, RTOS, ESP-IDF",
     "Sep 2025",
     "Present",
