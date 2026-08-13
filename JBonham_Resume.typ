@@ -22,9 +22,9 @@
     "Present",
     "Edmonton, AB",
     [
-      - Refactoring mapping and localization stack for greater accuracy and ease of use on a Clearpath Husky robot I converted to ROS 2.
-      - Built a sensor data ingestion pipeline processing raw hex-encoded XBee radio payloads, with automatic boot-time computation and GPS fallback for clock synchronization.
-      - Created a networked web interface for efficient file uploading onto a handheld laser engraver.
+      - Designed a sensor data ingestion pipeline processing raw hex-encoded XBee radio payloads, with automatic boot-time computation and GPS fallback for clock synchronization.
+      - Engineered a Raspberry Pi network bridge configured as a virtual USB drive, enabling remote file uploads to an air-gapped, non-internet-connected laser engraver via a custom web interface.
+      - Developed a custom SVG processing pipeline to optimize engraver toolpaths, utilizing rasterization for multi-outline generation and path-filtering algorithms to eliminate redundant line segments and jagged edges.
     ]
   )
   #experience("Software Co-Lead (Formerly Member)",
@@ -34,8 +34,10 @@
     "Present",
     "Edmonton, AB",
     [
-      - Managing a large team of students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software.
-      - As a member, helped represent ARVP at RoboSub 2025, finishing in the top 10 out of 60 teams.
+      - Managing a team of 20+ students working on various projects in topics like computer vision, visual servoing, PID control, and embedded software.
+      - Led on-site debugging and root-cause analysis of critical sensor malfunction during the 2026 RoboSub competition, as well as efforts to correct it
+      - Designing optical flow pipeline for correcting incorrect sensor data
+      - Leading development on a Hardware-in-the-Loop (HIL) simulation framework to validate autonomous behaviors and control systems prior to physical underwater deployment.
     ]
   )
   #experience("Robotics Research Intern",
@@ -45,8 +47,7 @@
     "May 2026",
     "Edmonton, AB",
     [
-      - Developed an automated robotic echocardiography routine for a collaborative KUKA LBR medical robot
-      - Adjusted force parameters and ESM states to ensure safe human-robot interaction at all stages.
+      - Developed automated echocardiography routines for a KUKA LBR collaborative robot, configuring force parameters and ESM states to guarantee safe human-robot interaction.
     ]
   )
   #experience("Teaching Assistant",
@@ -63,12 +64,11 @@
 
 #let my_projects = [
   #project("Two-Wheeled Differential Drive Robot",
-    "C++, RTOS, ESP-IDF",
+    "Python, C++, Linux, Zenoh",
     "Sep 2025",
     "Present",
     [
-      - Developing with ESP-IDF on the low-level controller.
-      - Integrated the MPU6050 IMU over I2C for sensing angular velocity, with both accelerometer and gyro data.
+      - Developing a differential drive robot using the Zenoh communication protocol on a Raspberry Pi 0 2W with 512 MiB of RAM, whose memory constraints prevents ROS 2 from being used.
     ]
   )
   #project([
