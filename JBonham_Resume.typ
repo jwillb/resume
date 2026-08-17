@@ -79,17 +79,7 @@
     "Aug 2025",
     [
       - Developed a visual servo based control system for autonomous robotics, which uses computer vision to align to objects.
-      - Adjusted for versatility on multiple robots
       - Achieved 99% accuracy during real-world trials
-    ]
-  )
-  #project("Server Administration",
-    "Linux, Proxmox, Docker, Networking",
-    "Jun 2018",
-    "Present",
-    [
-      - Designed and configured multiple servers for hosting various services
-      - Using containerized applications to isolate dependencies, decrease deployment time, and deploy my software automatically with GitHub Actions CI/CD
     ]
   )
 ]
